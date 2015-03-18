@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 50px;
+	border-bottom:1px solid gray;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative; 
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: ''; 
+}
+.content {
+	vertical-align:top;
+	position: relative;  
+	overflow: hidden;  
+	padding: .5em .5em .5em 250px; 
+	width:100%;
+	z-index:0;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-block {
+	width: 250px;
+	position: fixed; 
+	padding:.5em;
+	float:left;
+	z-index:1;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	position: relative;
+	height: 50px;
+	border-bottom:1px solid gray;
+}
+
+
+
+
+/*планшетные пк*/
+@media screen and (max-width: 960px) {
+
+
+	
+}
+
+/*телефоны*/
+@media screen and (max-width : 650px) {
+
+.left-block {
+	position: relative;
+	width: 100%;
+	padding: .5em .5em 0 .5em;
+}
+
+.container_ {
+	padding: 0 .5em .5em .5em;
+}
+
+}
+
