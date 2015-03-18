@@ -7,7 +7,7 @@
 <% 
 	request.setAttribute("host", request.getRemoteHost()); 
 %>
-<%--dddddfffff --%>
+<%--dddddfffff222 --%>
 <t:genericpage>
 
 	<jsp:attribute name="head">
